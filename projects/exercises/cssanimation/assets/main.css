@@ -1,0 +1,31 @@
+body {
+  background-color:#5cbbff;
+}
+.svg-46-c-path { 
+fill: #FF007F; stroke: none; animation: animate 5s linear 
+infinite;
+} 
+
+@keyframes animate { 
+  0% { 
+  transform: rotate 0deg; 
+  } 
+  100% {
+  transform: rotate(360deg); 
+  } 
+}
+
+@keyframes color {
+  0% {
+    fill: #default;
+  }
+  100% {
+    fill: #FFEC00;
+  }
+}
+
+.svg-46-c-path:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+  animation: color 1s infinite alternate;
+}
