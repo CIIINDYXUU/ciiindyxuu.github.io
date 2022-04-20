@@ -1,0 +1,29 @@
+
+    body {
+      background-color: black;
+      margin: 0;
+      display: flex;
+      /* This centers our sketch horizontally. */
+      justify-content: center;
+      /* This centers our sketch vertically. */
+      align-items: center;
+      color: floralwhite;
+    }
+
+    .container {
+
+      z-index: 0;
+      display:  flex;
+      font-family: 'Secular One', sans-serif;
+      font-size:  5vw;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      letter-spacing: 1px;
+    }
+    
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
